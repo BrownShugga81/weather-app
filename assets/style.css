@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    font-size: 30px;
+    color:cornsilk;
+    padding-bottom: 5px;
+}
+
+#currentDay {
+    display: flex;
+    justify-content:space-evenly;
+}
