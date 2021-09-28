@@ -5,6 +5,8 @@ $("#currentDay").text(currentDay.format("dddd, MMM Do"));
 
 var searchBtnEl = document.querySelector("#searchCity");
 var inputEl = document.querySelector("#searchInput");
+var pEl = document.querySelector("#currentCity");
+
 
 function searchCityApi() {
     var city = inputEl.value;
@@ -12,7 +14,11 @@ function searchCityApi() {
 
     fetch(apiEndpoint).then(function(response) {
         console.log(response);
-        //return response.json();
+        return response.json();
+    }).then(function(data){
+        console.log(data);
+        var pSrc = data.main.temp;
+        pEl.setAttribute("src", pSrc);
     })
 }
 
