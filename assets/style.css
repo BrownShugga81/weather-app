@@ -2,7 +2,7 @@ header {
     display: flex;
     justify-content: center;
     background-color: blue;
-    font-size: 30px;
+    font-size: 38px;
     color:cornsilk;
     padding-bottom: 5px;
 }
@@ -10,4 +10,10 @@ header {
 #currentDay {
     display: flex;
     justify-content:space-evenly;
+    font-size: 20px;
+}
+
+#searchDiv {
+    padding-top: 5px;
+    margin-left: 0px;
 }
