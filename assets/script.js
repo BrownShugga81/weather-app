@@ -5,7 +5,7 @@ $("#currentDay").text(currentDay.format("dddd, MMM Do"));
 
 var searchBtnEl = document.querySelector("#searchCity");
 var inputEl = document.querySelector("#searchInput");
-//var pEl = document.querySelector("#currentCity");
+var pEl = document.querySelector("#currentCityTemp");
 
 
 function searchCityApi() {
