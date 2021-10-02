@@ -1,6 +1,6 @@
 # weather-app
 
-## Discription
+## Description
 Type in city name to see current weather.
 
 ## Languages
@@ -13,3 +13,6 @@ Moment <br>
 
 ## ScreenShot
 ![Alt text](/assets/images/weather-app.png?raw=true "ScreenShot")
+
+## URL
+https://brownshugga81.github.io/weather-app/
