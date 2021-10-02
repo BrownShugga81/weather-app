@@ -66,4 +66,9 @@ function searchCityApi() {
 
      })
  }
+
+ function savedCity (){
+     inputEl.textContent = localStorage.getItem("cities");
+     savedCity.value = localStorage.getItem("cities");
+ }
 searchBtnEl.addEventListener("click", searchCityApi);
