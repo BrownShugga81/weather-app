@@ -7,6 +7,7 @@
     <title>Weather App</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" /> 
     <link rel="stylesheet" href="assets/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="hero">
@@ -14,16 +15,37 @@
         <p id="currentDay"></p>
     </header>
     <div class="container">
+
     <div class="row">
-        <div id="searchDiv" class="col-3">
+
+        <div id="searchDiv" class="col-4">
             <h2>Search for a City:</h2>
             <input id="searchInput" placeholder="enter city here:">
             <button id="searchCity">Search</button>
         </div>
-        <div class="col-9">
-            <p id="curentCityTemp"></p>
 
+        <!--current temp-->
+        <div id="currentDay" class="col-2 border border-dark">
+            <h5>Current Temp: </h5>
+            <p id="temp"></p>
         </div>
+        <!--current wind speed-->
+        <div class="col-2 border border-dark">
+            <h5>Wind Speed: </h5>
+            <p id="wind"></p>    
+        </div>
+        <!--current humidity-->
+        <div class="col-2 border border-dark">
+            <h5>Humidity: </h5>
+            <p id="humidity"></p>
+        </div>
+        <!--current uv index-->
+        <div class="col-2 border border-dark">
+            <h5>UV Index: </h5>
+            <p id="index"></p>
+        </div>
+
+       
     </div>
     </div>  
 
